@@ -1,0 +1,87 @@
+.profile {
+	background-color: #f4f4f4;
+	padding: 40px 0 60px 0;
+}
+.user-page-avatar {
+	display: flex;
+}
+.user-page-avatar-img {
+	border-radius: 50%;
+}
+.info {
+	margin-left: 4px;
+}
+.info p {
+	color: #888;
+}
+.user-page-menu {
+	margin-top: 14px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.tabs {
+	display: flex;
+	width: 100%;
+	padding: 10px 0;
+}
+.tabs-content {
+	display: none;
+}
+
+.tabs i {
+	flex: 1;
+	font-size: 20px;
+}
+.tabs span {
+	flex: 6;
+	text-align: start;
+	margin-left: 6px;
+	font-size: 16px;
+}
+.tabs-heading {
+	font-size: 24px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.my-account {
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 30px 20px;
+}
+.form-profile {
+	width: 600px;
+}
+.form-group-profile {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.form-group-profile .label {
+	flex: 1;
+	font-size: 14px;
+}
+.form-group-profile .form-group-input {
+	flex: 3;
+}
+.form-group-profile .form-group-input input {
+	outline: none;
+	width: 100%;
+	border: 1px solid rgb(204, 204, 204);
+	border-radius: 4px;
+	height: 34px;
+	padding: 6px 12px;
+}
+
+.active-tabs {
+	background-color: #ececec;
+}
+
+.active-content {
+	display: block;
+}
+
+.btn_mrt {
+	margin-top: 20px;
+}

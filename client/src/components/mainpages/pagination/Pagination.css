@@ -1,0 +1,29 @@
+.page-number {
+	list-style: none;
+	display: flex;
+	margin-bottom: 20px;
+	justify-content: center;
+}
+
+.page-number li {
+	padding: 10px;
+	border: 1px solid #576574;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.page-number li.active {
+	background-color: black;
+	color: white;
+}
+
+.page-number li button {
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.page-number li button:hover {
+	background-color: black;
+	color: white;
+}

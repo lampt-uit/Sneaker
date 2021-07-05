@@ -1,0 +1,14 @@
+.ButtonTopTop {
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: #95a5a6;
+	color: black;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 4px;
+}

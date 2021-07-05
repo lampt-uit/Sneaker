@@ -1,0 +1,32 @@
+.history-detail {
+	padding-top: 60px;	
+}
+.history-title {
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.history-detail table tr td img {
+	width: 100px;
+	height: 100px;
+	object-fit: fill;
+}
+
+
+.td-name {
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.td-price {
+	color: red;
+	font-weight: 500;
+}
+
+.tr-boder {
+	border-bottom: 1px solid #000;
+}

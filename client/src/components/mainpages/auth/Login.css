@@ -1,0 +1,177 @@
+.login {
+	width: 100%;
+	padding-top: 60px;
+}
+.form {
+	width: 450px;
+	min-height: 100px;
+}
+.form .heading {
+	font-size: 40px;
+	line-height: 38px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.form .heading ~ a {
+	display: block;
+	margin: 20px 0;
+	text-decoration: underline;
+	font-size: 20px;
+	color: black;
+}
+.heading-register {
+	margin-bottom: 10px;
+}
+.form .desc {
+	margin: 20px 0;
+	display: inline-block;
+	color: #000;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.form-group {
+	display: flex;
+	margin-bottom: 16px;
+	flex-direction: column;
+}
+
+.form-label,
+.form-message {
+	text-align: left;
+}
+
+.form-label {
+	font-weight: 700;
+	padding-bottom: 6px;
+	line-height: 1.8rem;
+	font-size: 16px;
+}
+.form .form-submit i {
+	margin-left: 4px;
+}
+.form-control {
+	height: 40px;
+	padding: 22px 18px;
+	border: 1px solid #b3b3b3;
+	border-radius: 2px;
+	outline: none;
+	font-size: 16px;
+}
+
+.form-control:hover {
+	border-color: #1dbfaf;
+}
+
+.form-group.invalid .form-control {
+	border-color: #f33a58;
+}
+
+.hr {
+	text-align: center;
+	font-size: 20px;
+	color: #999;
+	margin: 10px auto;
+	position: relative;
+}
+
+.hr span {
+	display: inline-block;
+	padding: 10px 30px;
+	background-color: #fff;
+	position: relative;
+	z-index: 2;
+}
+
+.hr::after {
+	content: '';
+	width: 100%;
+	height: 1px;
+	background-color: #999;
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+
+.social button {
+	margin: 5px 0;
+	height: 50px;
+	font-size: 14px;
+	font-weight: 200;
+	text-transform: capitalize;
+	letter-spacing: 1.3px;
+	color: #000;
+	padding: 5px;
+	background-color: #365899;
+}
+
+.form-message {
+	font-size: 12px;
+	line-height: 1.6rem;
+	padding: 4px 0 0;
+	color: #f33a58;
+}
+
+.reason {
+	width: 450px;
+	min-height: 100px;
+}
+.reason .desc {
+	font-size: 18px;
+	margin: 20px 0 16px 0;
+}
+.reason .content {
+	margin-left: 12px;
+}
+.reason .heading {
+	font-size: 40px;
+	line-height: 38px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.reason .content ul li {
+	font-size: 18px;
+	display: flex;
+	padding: 8px 0;
+}
+.reason .content ul li i {
+	margin-right: 12px;
+}
+
+.btn-register i {
+	margin-left: 8px;
+}
+
+.back-drop {
+	background-color: #333;
+	height: 100%;
+	position: fixed;
+	transition: all 1.3s;
+	width: 100%;
+	z-index: 10;
+	opacity: 0.6;
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+	.btn-table-mobile,
+	.form,
+	.reason {
+		width: 100%;
+	}
+	.btn-table-mobile {
+		margin-bottom: 40px;
+	}
+}
+@media (max-width: 740px) {
+	.btn-table-mobile,
+	.form,
+	.reason {
+		width: 100%;
+	}
+	.btn-table-mobile {
+		margin-bottom: 40px;
+	}
+	.app-content {
+		margin: 0 14px;
+	}
+}

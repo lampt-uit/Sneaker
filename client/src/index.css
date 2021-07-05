@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif; */
+	font-family: 'Poppins', sans-serif;
+	/*  font-family: "Noto Sans","AdihausDIN","Helvetica", "Arial","sans-serif"; */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+.App {
+	/* max-width: 1200px; */
+}
+
+/* ---Grid--- */
+@import url('./components/mainpages/utils/Grid.css');
+/* ---Base--- */
+@import url('./components/mainpages/utils/Base.css');

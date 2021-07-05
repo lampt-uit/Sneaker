@@ -1,0 +1,131 @@
+.cart-container {
+	padding-top: 40px;
+}
+.cart-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 12px;
+}
+.cart-title h4 {
+	text-transform: uppercase;
+	font-size: 28px;
+	letter-spacing: 2px;
+}
+.cart-title a {
+	display: block;
+
+	text-decoration: underline;
+	color: #000;
+}
+.cart-title a:hover {
+	background-color: #000;
+	color: #fff;
+}
+.cart-detail {
+	padding: 20px 0;
+	border-top: 1px solid #bdc3c7;
+}
+.product_cart {
+	margin: 0 auto;
+	height: 120px;
+	width: 120px;
+}
+.cart_link {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+.content-title {
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.content-stock {
+	color: #666;
+}
+.amount {
+	/* border: 1px solid #ccc; */
+	display: flex;
+	justify-content: space-between;
+	height: 34px;
+	width: 126px;
+	margin-bottom: 10px;
+}
+
+.amount a {
+	display: block;
+	width: 40px;
+	height: 100%;
+	text-align: center;
+	font-weight: 700;
+	border: 1px solid #ccc;
+}
+.amount span {
+	color: crimson;
+	font-weight: 500;
+	transform: translateY(3px);
+}
+.select-size {
+	padding: 5px;
+	outline: none;
+}
+.cart-price {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.delete {
+	cursor: pointer;
+}
+.delete:hover {
+	text-decoration: underline;
+	color: #fff;
+	background-color: #000;
+}
+
+.cart-warpper {
+	padding: 12px;
+	position: relative;
+	background-color: #ebebeb;
+}
+.cart-warpper h1 {
+	font-size: 26px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.form {
+	width: 100%;
+	background-color: #fff;
+	padding: 4px 10px;
+}
+.form-group:last-child {
+	margin-bottom: 0;
+}
+.form .input {
+	outline: none;
+	height: 30px;
+}
+.order {
+	margin-top: 10px;
+}
+.order-content {
+	background-color: #fff;
+	padding: 4px 10px;
+}
+.order-content p {
+	line-height: 26px;
+	font-size: 16px;
+}
+
+textarea {
+	resize: none;
+	padding: 5px;
+	outline: none;
+	border: 1px solid #95a5a6;
+}
+
+input {
+	padding: 5px;
+	outline: none;
+	border: 1px solid #95a5a6;
+}
