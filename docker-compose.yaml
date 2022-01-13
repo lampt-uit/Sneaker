@@ -1,0 +1,41 @@
+version: '3.7'
+services:
+  server:
+    image: 'node:14'
+    working_dir: /home/node/app
+    volumes:
+      - ./server:/home/node/app
+    ports:
+      - 4000:4000
+    command: >
+      bash -c 'npm install && npm start'
+    depends_on:
+      - mongo
+    networks:
+      - sneaker-net
+
+  mongo:
+    image: mongo:3.6.19-xenial
+    restart: always
+    networks:
+      - sneaker-net
+    volumes:
+      - ~/data/mongo:/data/db
+
+  client:
+    image: 'node:14'
+    working_dir: /home/node/app
+    volumes:
+      - ./client:/home/node/app
+    ports:
+      - 8080:3000
+    command: >
+      bash -c 'npm install && npm start'
+    depends_on:
+      - server
+    networks:
+      - sneaker-net
+
+networks:
+  sneaker-net:
+    name: sneaker-net
